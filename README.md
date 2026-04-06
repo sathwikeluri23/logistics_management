@@ -2,6 +2,8 @@
 
 ## 📌 Overview
 BIDS is a React-based logistics management application that allows users to create, view, and manage transport bids. The application simulates a real-world bidding system used in logistics operations.
+<img width="1898" height="911" alt="image" src="https://github.com/user-attachments/assets/82980b9b-a535-4f26-8fc7-d1b03cc3144b" />
+
 
 ---
 
