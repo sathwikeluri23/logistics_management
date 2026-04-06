@@ -1,0 +1,53 @@
+.sidebar {
+  width:220px;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding:20px;
+  background:#f4f7fb;
+  border-right:1px solid #ddd;
+
+  overflow-y: auto;
+}
+.logo {
+  font-size:22px;
+  font-weight:700;
+  color:#1f3c88;
+}
+
+.menu {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.menu a {
+  text-decoration:none;
+  padding:10px;
+  border-radius:20px;
+  color:#555;
+}
+
+.menu a:hover {
+  background:#e3ecff;
+  color:#1f3c88;
+}
+
+.bottom {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.bottom button {
+  padding:10px;
+  border-radius:20px;
+  border:none;
+  cursor:pointer;
+}
+
+.bottom button:hover {
+  background:#e3ecff;
+  color: #1f3c88;
+}

@@ -1,0 +1,69 @@
+.dash {
+  display: flex;
+  height: 100vh;
+}
+
+.main {
+  flex:1;
+  padding:20px;
+  overflow-y: auto;
+}
+
+.top {
+  display:flex;
+  gap:10px;
+}
+
+.top input {
+  padding:10px;
+  border-radius:20px;
+  border:1px solid #ddd;
+}
+
+.create {
+  background:#1f3c88;
+  color:white;
+  border:none;
+  padding:10px 15px;
+  border-radius:20px;
+  cursor:pointer;
+}
+
+.create:hover {
+  background:#162d66;
+}
+
+.badges {
+  margin:15px 0;
+  display:flex;
+  gap:15px;
+}
+
+.live {color:black;}
+.green {color:green;}
+.red {color:red;}
+
+.table {
+  background:white;
+  border-radius:20px;
+}
+
+.thead, .row {
+  display:grid;
+  grid-template-columns: repeat(9,1fr);
+  padding:10px;
+}
+
+.thead {
+  background:#1f3c88;
+  color:white;
+  border-radius:20px 20px 0 0;
+}
+
+.row {
+  cursor:pointer;
+}
+
+.row:hover {
+  background:#f4f7fb;
+}
