@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom"
 import Login from "./components/Login"
 import Signup from "./components/Signup"
 import Dashboard from "./components/Dashboard"
@@ -15,7 +15,7 @@ const Protected = ({children})=>{
 const App = ()=>{
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Login/>}/>
           <Route path="/signup" element={<Signup/>}/>
@@ -23,7 +23,7 @@ const App = ()=>{
           <Route path="/create" element={<Protected><ResponseForm/></Protected>}/>
           <Route path="/bid/:id" element={<Protected><BidDetails/></Protected>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </AuthProvider>
   )
 }
